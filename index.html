@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+       <title>Smart Galaxy
+       </title>
+     <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover"/>
+
+        <link rel="stylesheet"href="style.css">
+        <link rel="stylesheet"href="nav_style.css">
+        <link rel="icon"href="SG.png">
+
+
+
+
+    </head>
+     <body>
+
+
+
+<div class="page">
+
+
+<div class="header">
+<center>
+<h3>Subscribe the channel,Get unlimited technical idea and solutions first</h3> 
+
+
+<div class="subscrbSctn">
+<a href="https://youtube.com/@SmartGallery-yi1ch">
+<button class="sbscrb">Subscribe now</button>
+</a>
+</div><!--subscrbSctn-->
+</center>
+</div><!--header-->
+
+
+
+<div class="wlcmSec">
+<center>
+<fieldset>
+  <legend><a href="rgstr.html"><button class="rgstarBtn">Register</button></a>
+</legend> 
+<h3>Welcome to Smart Galaxy</h3><br>
+<p>Do you want to register your name in our channel ?<br>Click the register button above</p>
+
+</fieldset>
+
+
+
+
+</div><!--register-->
+
+
+
+
+<h4 class="nameCard">Recently uploaded videos</h4>
+<center>
+
+<div class="card">
+<a href="https://youtu.be/8FI7ikp74ro">
+<img src="showcase.jpg"class="thumb"id="thumb"/>
+</a>
+<p class="vname">How to make a Loading animation by html and CSS </p>
+
+
+
+</div><!--card-->
+
+<div class="card">
+
+<a href="https://youtu.be/6X5dI06nDtA">
+<img src="showcase.jpg"class="thumb"id="thumb"/>
+</a>
+<p class="vname">Creating a simple navigation bar by HTML and CSS in 1 minutes.</p>
+
+
+</div><!--card-->
+
+<div class="card">
+<a href="https://youtu.be/uWkU0oBxCbc">
+<img src="showcase.jpg"class="thumb"id="thumb"/>
+</a>
+<p class="vname">Creating a login page similar to google. using HTML and CSS</p>
+
+
+</div><!--card-->
+
+
+<button class="sm">See more »</button>
+
+
+        </div><!--page-->
+
+
+
+         <script src="script.js">
+              //my javascript
+
+
+
+
+         </script>
+
+
+
+
+
+<div class="navig"id="navbar">
+<h1><span class="smart">Smart</span> Galaxy</h1>
+
+
+<div class="menu_icon"onclick="shwNav();">
+
+<div class="bar"></div><!--bar-->
+<div class="bar"></div><!--bar-->
+<div class="bar"></div><!--bar-->
+
+
+</div><!--menu_icon-->
+
+</div><!--navig-->
+
+<div class="nav_optn"id="nav_optn">
+<span class="close"onclick="hideNav();">&times;</span>
+
+<div class="optSec">
+<a href="index.html">
+<button class="actv">
+Home
+</button>
+</a>
+<a href="rgstr.html">
+<button class="optn">
+Register
+</button>
+</a>
+
+<a href="about.html">
+<button class="optn">
+About
+</button>
+</a>
+
+
+<a href="contact.html">
+<button class="optn">
+Contact
+</button>
+</a>
+
+</div><!--optSec-->
+</div><!--nav_optn-->
+
+
+
+
+<script>
+
+
+
+
+
+
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+            
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+    
+  }
+  prevScrollpos = currentScrollPos;
+}
+
+
+
+
+
+
+function shwNav(){
+  document.getElementById("nav_optn").style.display="block";
+}
+
+
+function hideNav(){
+  document.getElementById("nav_optn").style.display="none";
+}
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+    </body>
+
+
+</html>

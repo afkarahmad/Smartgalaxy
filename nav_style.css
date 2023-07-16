@@ -1,0 +1,115 @@
+     .navig{
+             
+                background:#333;
+                padding-bottom:10px;
+                height: 40px;
+                width: 100%;
+                position: fixed;
+                top:0;
+                transition: top 0.5s;
+
+           }
+
+          .navig h1{
+            color:#fff;
+            font-size:20px;
+            margin-left:10px;
+            float:left;
+            
+          }
+          .smart{
+            color:#e8491d;
+          }
+
+
+.menu_icon{
+  
+  float:right;
+  margin-right:10px;
+  height:40px;
+  width:50px;
+  background:0;
+  margin-top:16px;
+}
+
+
+.bar{
+  height:2px;
+  width:30px;
+  background:#fff;
+  float:right;
+  margin-bottom:5px;
+}
+
+
+
+.nav_optn{
+  display:none;
+  
+ position: fixed;
+ top:0;
+ right:0;
+ background:#333;
+ height:300px;
+ width:250px;
+
+padding-bottom:10px;
+  
+user-select:none;  
+}
+
+
+.close{
+  
+ color:#fff; 
+ position: absolute;
+ top:10px;
+ right:25px;
+ font-size:30px;
+ 
+    
+}
+
+.optSec{
+  
+  margin-top:70px;
+  
+  
+}
+
+
+.optn{
+  
+  width:200px;
+  margin-bottom:25px;
+  margin-left:25px;
+  background:#eee;
+  border:0;
+  padding:5px 5px;  
+  
+}
+
+.optn:active{
+  
+  background:#e8491d;
+  color:#fff;
+  
+  
+}
+
+
+
+.actv{
+  
+  width:200px;
+  margin-bottom:25px;
+  margin-left:25px;
+  background:#e8491d;
+  color:#fff;
+  border:0;
+  padding:5px 5px;  
+  
+}
+
+
+
